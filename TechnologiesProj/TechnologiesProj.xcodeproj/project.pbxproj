@@ -9,19 +9,37 @@
 /* Begin PBXBuildFile section */
 		BF07F3632C3EEFE400652CCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07F3622C3EEFE400652CCD /* AppDelegate.swift */; };
 		BF07F3652C3EEFE400652CCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07F3642C3EEFE400652CCD /* SceneDelegate.swift */; };
-		BF07F3672C3EEFE400652CCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07F3662C3EEFE400652CCD /* ViewController.swift */; };
+		BF07F3672C3EEFE400652CCD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07F3662C3EEFE400652CCD /* MainViewController.swift */; };
 		BF07F36C2C3EEFE500652CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF07F36B2C3EEFE500652CCD /* Assets.xcassets */; };
 		BF07F36F2C3EEFE500652CCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF07F36D2C3EEFE500652CCD /* LaunchScreen.storyboard */; };
+		BF8BC6322C3EFB3F00EC525C /* HapticFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8BC6312C3EFB3F00EC525C /* HapticFeedbackViewController.swift */; };
+		BF8BC6342C3EFBAE00EC525C /* MainCellTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8BC6332C3EFBAE00EC525C /* MainCellTypes.swift */; };
+		BF8BC6372C3EFC5000EC525C /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8BC6362C3EFC5000EC525C /* MainCell.swift */; };
+		BFC94BCE2C418CD10055CFD4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BCD2C418CD10055CFD4 /* UIColor+Extension.swift */; };
+		BFC94BD12C4194AE0055CFD4 /* HapticButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BD02C4194AE0055CFD4 /* HapticButtons.swift */; };
+		BFC94BD32C4196760055CFD4 /* HapticButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BD22C4196760055CFD4 /* HapticButton.swift */; };
+		BFC94BD62C41A1EE0055CFD4 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BD52C41A1EE0055CFD4 /* UINavigationController+Extension.swift */; };
+		E4F2ED38BAA755CC7EB1C539 /* Pods_TechnologiesProj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668B8BAE704CFA4AF91BB51F /* Pods_TechnologiesProj.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		668B8BAE704CFA4AF91BB51F /* Pods_TechnologiesProj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechnologiesProj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0EDB8E5156E681CB678BD3 /* Pods-TechnologiesProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnologiesProj.debug.xcconfig"; path = "Target Support Files/Pods-TechnologiesProj/Pods-TechnologiesProj.debug.xcconfig"; sourceTree = "<group>"; };
 		BF07F35F2C3EEFE400652CCD /* TechnologiesProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechnologiesProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF07F3622C3EEFE400652CCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF07F3642C3EEFE400652CCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BF07F3662C3EEFE400652CCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF07F3662C3EEFE400652CCD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BF07F36B2C3EEFE500652CCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF07F36E2C3EEFE500652CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF07F3702C3EEFE500652CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8BC6312C3EFB3F00EC525C /* HapticFeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackViewController.swift; sourceTree = "<group>"; };
+		BF8BC6332C3EFBAE00EC525C /* MainCellTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCellTypes.swift; sourceTree = "<group>"; };
+		BF8BC6362C3EFC5000EC525C /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		BFC94BCD2C418CD10055CFD4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		BFC94BD02C4194AE0055CFD4 /* HapticButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticButtons.swift; sourceTree = "<group>"; };
+		BFC94BD22C4196760055CFD4 /* HapticButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticButton.swift; sourceTree = "<group>"; };
+		BFC94BD52C41A1EE0055CFD4 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		D9BDECA1D215045D716B95E5 /* Pods-TechnologiesProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnologiesProj.release.xcconfig"; path = "Target Support Files/Pods-TechnologiesProj/Pods-TechnologiesProj.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F2ED38BAA755CC7EB1C539 /* Pods_TechnologiesProj.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		839C673CDEFDC32A5A782AAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E0EDB8E5156E681CB678BD3 /* Pods-TechnologiesProj.debug.xcconfig */,
+				D9BDECA1D215045D716B95E5 /* Pods-TechnologiesProj.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BF07F3562C3EEFE400652CCD = {
 			isa = PBXGroup;
 			children = (
 				BF07F3612C3EEFE400652CCD /* TechnologiesProj */,
 				BF07F3602C3EEFE400652CCD /* Products */,
+				839C673CDEFDC32A5A782AAA /* Pods */,
+				E9DB65F0C1E7F044B53E4D2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +84,101 @@
 		BF07F3612C3EEFE400652CCD /* TechnologiesProj */ = {
 			isa = PBXGroup;
 			children = (
-				BF07F3622C3EEFE400652CCD /* AppDelegate.swift */,
-				BF07F3642C3EEFE400652CCD /* SceneDelegate.swift */,
-				BF07F3662C3EEFE400652CCD /* ViewController.swift */,
-				BF07F36B2C3EEFE500652CCD /* Assets.xcassets */,
-				BF07F36D2C3EEFE500652CCD /* LaunchScreen.storyboard */,
+				BFC94BCC2C418CC20055CFD4 /* Extensions */,
+				BF8BC62D2C3EFADC00EC525C /* Application */,
+				BF8BC62C2C3EFAD500EC525C /* MainViewController */,
+				BF8BC6302C3EFB2500EC525C /* HapticFeedbackViewController */,
+				BF8BC62E2C3EFAE900EC525C /* Resources */,
 				BF07F3702C3EEFE500652CCD /* Info.plist */,
 			);
 			path = TechnologiesProj;
+			sourceTree = "<group>";
+		};
+		BF8BC62C2C3EFAD500EC525C /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BF8BC6352C3EFBB100EC525C /* Models */,
+				BF8BC62F2C3EFB1E00EC525C /* Cells */,
+				BF07F3662C3EEFE400652CCD /* MainViewController.swift */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		BF8BC62D2C3EFADC00EC525C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BF07F3622C3EEFE400652CCD /* AppDelegate.swift */,
+				BF07F3642C3EEFE400652CCD /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BF8BC62E2C3EFAE900EC525C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF07F36B2C3EEFE500652CCD /* Assets.xcassets */,
+				BF07F36D2C3EEFE500652CCD /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BF8BC62F2C3EFB1E00EC525C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BF8BC6362C3EFC5000EC525C /* MainCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BF8BC6302C3EFB2500EC525C /* HapticFeedbackViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BFC94BD42C41967B0055CFD4 /* Views */,
+				BFC94BCF2C4194A00055CFD4 /* Models */,
+				BF8BC6312C3EFB3F00EC525C /* HapticFeedbackViewController.swift */,
+			);
+			path = HapticFeedbackViewController;
+			sourceTree = "<group>";
+		};
+		BF8BC6352C3EFBB100EC525C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF8BC6332C3EFBAE00EC525C /* MainCellTypes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFC94BCC2C418CC20055CFD4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BFC94BCD2C418CD10055CFD4 /* UIColor+Extension.swift */,
+				BFC94BD52C41A1EE0055CFD4 /* UINavigationController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BFC94BCF2C4194A00055CFD4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BFC94BD02C4194AE0055CFD4 /* HapticButtons.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFC94BD42C41967B0055CFD4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BFC94BD22C4196760055CFD4 /* HapticButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E9DB65F0C1E7F044B53E4D2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				668B8BAE704CFA4AF91BB51F /* Pods_TechnologiesProj.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF07F3732C3EEFE500652CCD /* Build configuration list for PBXNativeTarget "TechnologiesProj" */;
 			buildPhases = (
+				33F1EEAF2462C86D518E8D3D /* [CP] Check Pods Manifest.lock */,
 				BF07F35B2C3EEFE400652CCD /* Sources */,
 				BF07F35C2C3EEFE400652CCD /* Frameworks */,
 				BF07F35D2C3EEFE400652CCD /* Resources */,
+				A6AE31A004166B5BB3AE452E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,13 +248,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33F1EEAF2462C86D518E8D3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TechnologiesProj-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6AE31A004166B5BB3AE452E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TechnologiesProj/Pods-TechnologiesProj-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TechnologiesProj/Pods-TechnologiesProj-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TechnologiesProj/Pods-TechnologiesProj-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF07F35B2C3EEFE400652CCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF07F3672C3EEFE400652CCD /* ViewController.swift in Sources */,
+				BFC94BCE2C418CD10055CFD4 /* UIColor+Extension.swift in Sources */,
+				BF07F3672C3EEFE400652CCD /* MainViewController.swift in Sources */,
 				BF07F3632C3EEFE400652CCD /* AppDelegate.swift in Sources */,
+				BF8BC6372C3EFC5000EC525C /* MainCell.swift in Sources */,
+				BF8BC6342C3EFBAE00EC525C /* MainCellTypes.swift in Sources */,
+				BF8BC6322C3EFB3F00EC525C /* HapticFeedbackViewController.swift in Sources */,
+				BFC94BD32C4196760055CFD4 /* HapticButton.swift in Sources */,
+				BFC94BD62C41A1EE0055CFD4 /* UINavigationController+Extension.swift in Sources */,
+				BFC94BD12C4194AE0055CFD4 /* HapticButtons.swift in Sources */,
 				BF07F3652C3EEFE400652CCD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,12 +443,14 @@
 		};
 		BF07F3742C3EEFE500652CCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E0EDB8E5156E681CB678BD3 /* Pods-TechnologiesProj.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5H3Y5WAVX4;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TechnologiesProj/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -302,12 +472,14 @@
 		};
 		BF07F3752C3EEFE500652CCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9BDECA1D215045D716B95E5 /* Pods-TechnologiesProj.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5H3Y5WAVX4;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TechnologiesProj/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
