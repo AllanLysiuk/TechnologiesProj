@@ -19,6 +19,17 @@
 		BFC94BD12C4194AE0055CFD4 /* HapticButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BD02C4194AE0055CFD4 /* HapticButtons.swift */; };
 		BFC94BD32C4196760055CFD4 /* HapticButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BD22C4196760055CFD4 /* HapticButton.swift */; };
 		BFC94BD62C41A1EE0055CFD4 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BD52C41A1EE0055CFD4 /* UINavigationController+Extension.swift */; };
+		BFC94BD92C425ADD0055CFD4 /* TransitionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BD82C425ADD0055CFD4 /* TransitionsController.swift */; };
+		BFC94BDC2C425BCB0055CFD4 /* BottomPanelTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BDB2C425BCA0055CFD4 /* BottomPanelTransition.swift */; };
+		BFC94BDE2C425BE60055CFD4 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BDD2C425BE60055CFD4 /* PresentationController.swift */; };
+		BFC94BE02C425E4A0055CFD4 /* BottomTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BDF2C425E4A0055CFD4 /* BottomTransitionViewController.swift */; };
+		BFC94BE22C4260150055CFD4 /* DimmPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BE12C4260150055CFD4 /* DimmPresentationController.swift */; };
+		BFC94BE42C4260910055CFD4 /* BottomPresentAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BE32C4260910055CFD4 /* BottomPresentAnimation.swift */; };
+		BFC94BE82C4269230055CFD4 /* BottomDismissAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BE72C4269230055CFD4 /* BottomDismissAnimation.swift */; };
+		BFC94BEB2C426E1D0055CFD4 /* BottomTransitionDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BEA2C426E1D0055CFD4 /* BottomTransitionDriver.swift */; };
+		BFC94BED2C42738B0055CFD4 /* CGPoint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BEC2C42738B0055CFD4 /* CGPoint+Extension.swift */; };
+		BFC94BEF2C4273A80055CFD4 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BEE2C4273A80055CFD4 /* CGFloat+Extension.swift */; };
+		BFC94BF22C4273FB0055CFD4 /* BottomTransitionDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BF12C4273FB0055CFD4 /* BottomTransitionDirection.swift */; };
 		E4F2ED38BAA755CC7EB1C539 /* Pods_TechnologiesProj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668B8BAE704CFA4AF91BB51F /* Pods_TechnologiesProj.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +50,17 @@
 		BFC94BD02C4194AE0055CFD4 /* HapticButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticButtons.swift; sourceTree = "<group>"; };
 		BFC94BD22C4196760055CFD4 /* HapticButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticButton.swift; sourceTree = "<group>"; };
 		BFC94BD52C41A1EE0055CFD4 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		BFC94BD82C425ADD0055CFD4 /* TransitionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsController.swift; sourceTree = "<group>"; };
+		BFC94BDB2C425BCA0055CFD4 /* BottomPanelTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomPanelTransition.swift; sourceTree = "<group>"; };
+		BFC94BDD2C425BE60055CFD4 /* PresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		BFC94BDF2C425E4A0055CFD4 /* BottomTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTransitionViewController.swift; sourceTree = "<group>"; };
+		BFC94BE12C4260150055CFD4 /* DimmPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimmPresentationController.swift; sourceTree = "<group>"; };
+		BFC94BE32C4260910055CFD4 /* BottomPresentAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomPresentAnimation.swift; sourceTree = "<group>"; };
+		BFC94BE72C4269230055CFD4 /* BottomDismissAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomDismissAnimation.swift; sourceTree = "<group>"; };
+		BFC94BEA2C426E1D0055CFD4 /* BottomTransitionDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTransitionDriver.swift; sourceTree = "<group>"; };
+		BFC94BEC2C42738B0055CFD4 /* CGPoint+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extension.swift"; sourceTree = "<group>"; };
+		BFC94BEE2C4273A80055CFD4 /* CGFloat+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
+		BFC94BF12C4273FB0055CFD4 /* BottomTransitionDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTransitionDirection.swift; sourceTree = "<group>"; };
 		D9BDECA1D215045D716B95E5 /* Pods-TechnologiesProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnologiesProj.release.xcconfig"; path = "Target Support Files/Pods-TechnologiesProj/Pods-TechnologiesProj.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,10 +106,11 @@
 		BF07F3612C3EEFE400652CCD /* TechnologiesProj */ = {
 			isa = PBXGroup;
 			children = (
-				BFC94BCC2C418CC20055CFD4 /* Extensions */,
 				BF8BC62D2C3EFADC00EC525C /* Application */,
 				BF8BC62C2C3EFAD500EC525C /* MainViewController */,
 				BF8BC6302C3EFB2500EC525C /* HapticFeedbackViewController */,
+				BFC94BD72C425ABE0055CFD4 /* TransitionsController */,
+				BFC94BCC2C418CC20055CFD4 /* Extensions */,
 				BF8BC62E2C3EFAE900EC525C /* Resources */,
 				BF07F3702C3EEFE500652CCD /* Info.plist */,
 			);
@@ -153,6 +176,8 @@
 			children = (
 				BFC94BCD2C418CD10055CFD4 /* UIColor+Extension.swift */,
 				BFC94BD52C41A1EE0055CFD4 /* UINavigationController+Extension.swift */,
+				BFC94BEC2C42738B0055CFD4 /* CGPoint+Extension.swift */,
+				BFC94BEE2C4273A80055CFD4 /* CGFloat+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -171,6 +196,62 @@
 				BFC94BD22C4196760055CFD4 /* HapticButton.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		BFC94BD72C425ABE0055CFD4 /* TransitionsController */ = {
+			isa = PBXGroup;
+			children = (
+				BFC94BDA2C425AE70055CFD4 /* Transitions */,
+				BFC94BD82C425ADD0055CFD4 /* TransitionsController.swift */,
+			);
+			path = TransitionsController;
+			sourceTree = "<group>";
+		};
+		BFC94BDA2C425AE70055CFD4 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				BFC94BE52C4268D40055CFD4 /* BottomTransition */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		BFC94BE52C4268D40055CFD4 /* BottomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				BFC94BF02C4273C60055CFD4 /* BottomTransitionDriver */,
+				BFC94BE62C4268FB0055CFD4 /* Animations */,
+				BFC94BE92C426CDE0055CFD4 /* PresentationControllers */,
+				BFC94BDB2C425BCA0055CFD4 /* BottomPanelTransition.swift */,
+				BFC94BDF2C425E4A0055CFD4 /* BottomTransitionViewController.swift */,
+			);
+			path = BottomTransition;
+			sourceTree = "<group>";
+		};
+		BFC94BE62C4268FB0055CFD4 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				BFC94BE32C4260910055CFD4 /* BottomPresentAnimation.swift */,
+				BFC94BE72C4269230055CFD4 /* BottomDismissAnimation.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		BFC94BE92C426CDE0055CFD4 /* PresentationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFC94BE12C4260150055CFD4 /* DimmPresentationController.swift */,
+				BFC94BDD2C425BE60055CFD4 /* PresentationController.swift */,
+			);
+			path = PresentationControllers;
+			sourceTree = "<group>";
+		};
+		BFC94BF02C4273C60055CFD4 /* BottomTransitionDriver */ = {
+			isa = PBXGroup;
+			children = (
+				BFC94BEA2C426E1D0055CFD4 /* BottomTransitionDriver.swift */,
+				BFC94BF12C4273FB0055CFD4 /* BottomTransitionDirection.swift */,
+			);
+			path = BottomTransitionDriver;
 			sourceTree = "<group>";
 		};
 		E9DB65F0C1E7F044B53E4D2D /* Frameworks */ = {
@@ -295,16 +376,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC94BEB2C426E1D0055CFD4 /* BottomTransitionDriver.swift in Sources */,
 				BFC94BCE2C418CD10055CFD4 /* UIColor+Extension.swift in Sources */,
+				BFC94BED2C42738B0055CFD4 /* CGPoint+Extension.swift in Sources */,
 				BF07F3672C3EEFE400652CCD /* MainViewController.swift in Sources */,
+				BFC94BE42C4260910055CFD4 /* BottomPresentAnimation.swift in Sources */,
 				BF07F3632C3EEFE400652CCD /* AppDelegate.swift in Sources */,
 				BF8BC6372C3EFC5000EC525C /* MainCell.swift in Sources */,
+				BFC94BE82C4269230055CFD4 /* BottomDismissAnimation.swift in Sources */,
+				BFC94BD92C425ADD0055CFD4 /* TransitionsController.swift in Sources */,
+				BFC94BE02C425E4A0055CFD4 /* BottomTransitionViewController.swift in Sources */,
 				BF8BC6342C3EFBAE00EC525C /* MainCellTypes.swift in Sources */,
 				BF8BC6322C3EFB3F00EC525C /* HapticFeedbackViewController.swift in Sources */,
 				BFC94BD32C4196760055CFD4 /* HapticButton.swift in Sources */,
 				BFC94BD62C41A1EE0055CFD4 /* UINavigationController+Extension.swift in Sources */,
+				BFC94BF22C4273FB0055CFD4 /* BottomTransitionDirection.swift in Sources */,
+				BFC94BEF2C4273A80055CFD4 /* CGFloat+Extension.swift in Sources */,
+				BFC94BDE2C425BE60055CFD4 /* PresentationController.swift in Sources */,
 				BFC94BD12C4194AE0055CFD4 /* HapticButtons.swift in Sources */,
+				BFC94BE22C4260150055CFD4 /* DimmPresentationController.swift in Sources */,
 				BF07F3652C3EEFE400652CCD /* SceneDelegate.swift in Sources */,
+				BFC94BDC2C425BCB0055CFD4 /* BottomPanelTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
