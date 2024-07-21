@@ -12,6 +12,8 @@
 		BF07F3672C3EEFE400652CCD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07F3662C3EEFE400652CCD /* MainViewController.swift */; };
 		BF07F36C2C3EEFE500652CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF07F36B2C3EEFE500652CCD /* Assets.xcassets */; };
 		BF07F36F2C3EEFE500652CCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF07F36D2C3EEFE500652CCD /* LaunchScreen.storyboard */; };
+		BF7E3D5C2C4CF31E00409C16 /* AnimationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E3D5B2C4CF31E00409C16 /* AnimationsController.swift */; };
+		BF7E3D5F2C4CFACF00409C16 /* ContinueButtonInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E3D5E2C4CFACF00409C16 /* ContinueButtonInfoView.swift */; };
 		BF8BC6322C3EFB3F00EC525C /* HapticFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8BC6312C3EFB3F00EC525C /* HapticFeedbackViewController.swift */; };
 		BF8BC6342C3EFBAE00EC525C /* MainCellTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8BC6332C3EFBAE00EC525C /* MainCellTypes.swift */; };
 		BF8BC6372C3EFC5000EC525C /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8BC6362C3EFC5000EC525C /* MainCell.swift */; };
@@ -43,6 +45,8 @@
 		BF07F36B2C3EEFE500652CCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF07F36E2C3EEFE500652CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF07F3702C3EEFE500652CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF7E3D5B2C4CF31E00409C16 /* AnimationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsController.swift; sourceTree = "<group>"; };
+		BF7E3D5E2C4CFACF00409C16 /* ContinueButtonInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueButtonInfoView.swift; sourceTree = "<group>"; };
 		BF8BC6312C3EFB3F00EC525C /* HapticFeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackViewController.swift; sourceTree = "<group>"; };
 		BF8BC6332C3EFBAE00EC525C /* MainCellTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCellTypes.swift; sourceTree = "<group>"; };
 		BF8BC6362C3EFC5000EC525C /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
@@ -110,11 +114,29 @@
 				BF8BC62C2C3EFAD500EC525C /* MainViewController */,
 				BF8BC6302C3EFB2500EC525C /* HapticFeedbackViewController */,
 				BFC94BD72C425ABE0055CFD4 /* TransitionsController */,
+				BF7E3D5A2C4CF30D00409C16 /* AnimationsController */,
 				BFC94BCC2C418CC20055CFD4 /* Extensions */,
 				BF8BC62E2C3EFAE900EC525C /* Resources */,
 				BF07F3702C3EEFE500652CCD /* Info.plist */,
 			);
 			path = TechnologiesProj;
+			sourceTree = "<group>";
+		};
+		BF7E3D5A2C4CF30D00409C16 /* AnimationsController */ = {
+			isa = PBXGroup;
+			children = (
+				BF7E3D5D2C4CFABA00409C16 /* Views */,
+				BF7E3D5B2C4CF31E00409C16 /* AnimationsController.swift */,
+			);
+			path = AnimationsController;
+			sourceTree = "<group>";
+		};
+		BF7E3D5D2C4CFABA00409C16 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF7E3D5E2C4CFACF00409C16 /* ContinueButtonInfoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		BF8BC62C2C3EFAD500EC525C /* MainViewController */ = {
@@ -378,6 +400,7 @@
 			files = (
 				BFC94BEB2C426E1D0055CFD4 /* BottomTransitionDriver.swift in Sources */,
 				BFC94BCE2C418CD10055CFD4 /* UIColor+Extension.swift in Sources */,
+				BF7E3D5F2C4CFACF00409C16 /* ContinueButtonInfoView.swift in Sources */,
 				BFC94BED2C42738B0055CFD4 /* CGPoint+Extension.swift in Sources */,
 				BF07F3672C3EEFE400652CCD /* MainViewController.swift in Sources */,
 				BFC94BE42C4260910055CFD4 /* BottomPresentAnimation.swift in Sources */,
@@ -386,6 +409,7 @@
 				BFC94BE82C4269230055CFD4 /* BottomDismissAnimation.swift in Sources */,
 				BFC94BD92C425ADD0055CFD4 /* TransitionsController.swift in Sources */,
 				BFC94BE02C425E4A0055CFD4 /* BottomTransitionViewController.swift in Sources */,
+				BF7E3D5C2C4CF31E00409C16 /* AnimationsController.swift in Sources */,
 				BF8BC6342C3EFBAE00EC525C /* MainCellTypes.swift in Sources */,
 				BF8BC6322C3EFB3F00EC525C /* HapticFeedbackViewController.swift in Sources */,
 				BFC94BD32C4196760055CFD4 /* HapticButton.swift in Sources */,

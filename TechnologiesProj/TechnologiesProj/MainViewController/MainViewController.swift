@@ -13,7 +13,8 @@ class MainViewController: UIViewController {
     
     private var dataSource: [MainCellTypes] = [
         .hapticButtons,
-        .transitionControllers
+        .transitionControllers,
+        .animationsController
     ]
 
     override func viewDidLoad() {
@@ -67,6 +68,9 @@ extension MainViewController: UITableViewDataSource {
             self.navigationController?.pushViewController(vc, animated: true)
         case .transitionControllers:
             let vc = TransitionsController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case .animationsController:
+            let vc = AnimationsController()
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }
