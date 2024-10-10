@@ -8,4 +8,6 @@ enum HapticButtonType: String {
     case medium = "Medium"
     case heavy = "Heavy"
     case selectionChanged = "Selection changed"
+    case customVibration = "Custom vibration"
+    case customDatePicker = "Custom date picker"
 }

@@ -18,7 +18,9 @@ final class HapticFeedbackViewController: UIViewController {
         .light,
         .medium,
         .selectionChanged,
-        .warning
+        .warning,
+        .customVibration,
+        .customDatePicker
     ]
     
     override func viewDidLoad() {
@@ -87,6 +89,10 @@ final class HapticFeedbackViewController: UIViewController {
         case .selectionChanged:
             let generator = UISelectionFeedbackGenerator()
             generator.selectionChanged()
+        case .customVibration:
+            HapticFeedbackGenerator.shared.customVibrationFeedback()
+        case .customDatePicker:
+            HapticFeedbackGenerator.shared.datePickerFeedback()
         }
     }
     

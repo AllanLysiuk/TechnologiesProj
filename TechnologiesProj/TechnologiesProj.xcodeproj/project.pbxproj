@@ -17,6 +17,7 @@
 		BF8BC6322C3EFB3F00EC525C /* HapticFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8BC6312C3EFB3F00EC525C /* HapticFeedbackViewController.swift */; };
 		BF8BC6342C3EFBAE00EC525C /* MainCellTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8BC6332C3EFBAE00EC525C /* MainCellTypes.swift */; };
 		BF8BC6372C3EFC5000EC525C /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8BC6362C3EFC5000EC525C /* MainCell.swift */; };
+		BF9CFE812CB6B8AF0040B2C4 /* HapticFeedbackGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9CFE802CB6B8AF0040B2C4 /* HapticFeedbackGenerator.swift */; };
 		BFC94BCE2C418CD10055CFD4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BCD2C418CD10055CFD4 /* UIColor+Extension.swift */; };
 		BFC94BD12C4194AE0055CFD4 /* HapticButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BD02C4194AE0055CFD4 /* HapticButtons.swift */; };
 		BFC94BD32C4196760055CFD4 /* HapticButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC94BD22C4196760055CFD4 /* HapticButton.swift */; };
@@ -50,6 +51,7 @@
 		BF8BC6312C3EFB3F00EC525C /* HapticFeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackViewController.swift; sourceTree = "<group>"; };
 		BF8BC6332C3EFBAE00EC525C /* MainCellTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCellTypes.swift; sourceTree = "<group>"; };
 		BF8BC6362C3EFC5000EC525C /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		BF9CFE802CB6B8AF0040B2C4 /* HapticFeedbackGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackGenerator.swift; sourceTree = "<group>"; };
 		BFC94BCD2C418CD10055CFD4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		BFC94BD02C4194AE0055CFD4 /* HapticButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticButtons.swift; sourceTree = "<group>"; };
 		BFC94BD22C4196760055CFD4 /* HapticButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticButton.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 		BF8BC6302C3EFB2500EC525C /* HapticFeedbackViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BF9CFE7F2CB6B89A0040B2C4 /* Managers */,
 				BFC94BD42C41967B0055CFD4 /* Views */,
 				BFC94BCF2C4194A00055CFD4 /* Models */,
 				BF8BC6312C3EFB3F00EC525C /* HapticFeedbackViewController.swift */,
@@ -191,6 +194,14 @@
 				BF8BC6332C3EFBAE00EC525C /* MainCellTypes.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		BF9CFE7F2CB6B89A0040B2C4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BF9CFE802CB6B8AF0040B2C4 /* HapticFeedbackGenerator.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		BFC94BCC2C418CC20055CFD4 /* Extensions */ = {
@@ -419,6 +430,7 @@
 				BFC94BDE2C425BE60055CFD4 /* PresentationController.swift in Sources */,
 				BFC94BD12C4194AE0055CFD4 /* HapticButtons.swift in Sources */,
 				BFC94BE22C4260150055CFD4 /* DimmPresentationController.swift in Sources */,
+				BF9CFE812CB6B8AF0040B2C4 /* HapticFeedbackGenerator.swift in Sources */,
 				BF07F3652C3EEFE400652CCD /* SceneDelegate.swift in Sources */,
 				BFC94BDC2C425BCB0055CFD4 /* BottomPanelTransition.swift in Sources */,
 			);
